@@ -1,0 +1,19 @@
+export const GET_COURSES = "GET_COURSES"
+export const GET_SINGLE_COURSES = "GET_SINGLE_COURSES"
+export const GET_ABOUT = "GET_ABOUT"
+export const GET_COURSES_TEST = "GET_COURSES_TEST"
+export const GET_COURSES_TEST_DETAILS = "GET_COURSES_TEST_DETAILS"
+export const GET_USER = "GET_USER"
+export const GET_POSITION = "GET_POSITION"
+export const GET_IMG = "GET_IMG"
+export const GET_IMG_PAS = "GET_IMG_PAS"
+export const GET_APPLICATION = "GET_APPLICATION"
+export const GET_APPLICATION_TWO = "GET_APPLICATION_TWO"
+export const GET_ACTIVE_CASE = "GET_ACTIVE_CASE"
+export const GET_POS = "GET_POS"
+export const USER_ID = "USER_ID"
+export const GET_TEST_RESULTS = "GET_TEST_RESULTS"
+export const GET_PROPS = "GET_PROPS"
+
+
+
