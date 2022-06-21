@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 
-body{
+body,html{
   background:url("components/img/Group2.svg") #000234 no-repeat top;
+  scroll-behavior: smooth;
 }
 
 
