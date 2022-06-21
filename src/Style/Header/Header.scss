@@ -1,0 +1,33 @@
+.header{
+  width: 22%;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
+  &__head{
+  }
+  &__navbar{
+    font-size: 19px;
+    color:#A8A8A8;
+    display: flex;
+    align-items: center;
+    //&:focus{
+    //  font-size: 19px;
+    //  color:#DA8517 ;
+    //  border-radius: 20px;
+    //  background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.27) 2.77%, rgba(238, 169, 80, 0) 109.06%);
+    //}
+    &.active{
+      font-size: 19px;
+      color:#EEA950;
+      border-radius: 20px;
+      background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.27) 2.77%, rgba(238, 169, 80, 0) 109.06%);
+    }
+
+  }
+}
+.rate{
+  background: rgba(238, 169, 80, 0.27);
+  border-radius: 5px;
+}
+.rate:hover{
+  background: rgba(238, 169, 80, 0.32);
+  border-radius: 5px;
+}

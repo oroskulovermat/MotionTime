@@ -1,0 +1,22 @@
+.home {
+  &__left {
+    background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.30) 2.77%, rgba(238, 169, 80, 0) 109.06%);
+    border-radius: 10px;
+
+    &__content {
+      background: rgba(238, 169, 80, 0.27);
+      border-radius: 5px;
+      margin: 0 30px 0 30px;
+    }
+  }
+
+  &__right{
+    background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.30) 2.77%, rgba(238, 169, 80, 0) 109.06%);
+    border-radius: 10px;
+    &__diagram{
+      width: 344px;
+      height: 203px;
+      background: linear-gradient(180deg, #FF7A00 0%, rgba(50, 24, 0, 0) 100%);
+    }
+  }
+}

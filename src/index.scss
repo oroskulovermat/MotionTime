@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background:url("components/img/Group2.svg") #000234 no-repeat top;
+}
+
+
+
+
+@import "../src/Style/Register/Register";
+@import "../src/Style/Register/Login";
+@import "../src/Style/Register/configRegister";
+@import "../src/Style/Register/CreateAccount";
+@import "./Style/Login/Login";
+@import "./Style/Forgot/ChangePassword";
+@import "./Style/Forgot/ConfigForgotPassword";
+@import "./Style/Forgot/ForgotPassword";
+@import "./Style/Header/Header";
+@import "./Style/Home/Home";
