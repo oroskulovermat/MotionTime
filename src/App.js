@@ -15,10 +15,11 @@ import Reports from "./components/pages/Reports/Reports";
 import Settings from "./components/pages/Settings/Settings";
 import Profile from "./components/pages/Profile/Profile";
 import Rate from "./components/pages/Rate/Rate";
-
+// import Burger from "./components/pages/burger"
 function App() {
     return (
         <>
+            {/*<Burger/>*/}
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/register' element={<Register/>}/>

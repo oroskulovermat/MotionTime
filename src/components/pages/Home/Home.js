@@ -1,4 +1,5 @@
 import Layout from "../../Layout/Layout";
+import Burger from "../burger";
 
 const Home = () => {
     return (
@@ -22,17 +23,7 @@ const Home = () => {
                     <div className="flex justify-end pt-8 pr-3 w-full text-[#010049]">
                         <select
                             // onChange={(e)=> handleSelect(e)}
-                            className="select-none
-
-                                    text-[#DA8517]
-
-                                    text-base
-                                    font-normal
-                                    bg-none bg-clip-padding bg-no-repeat
-                                    border-none
-                                    rounded
-                                    m-0
-                                    focus:text-[#DA8517] focus:border-none " aria-label="">
+                            className="home__right--select" aria-label="">
                             <option value="">Прошлая неделя</option>
                             <option value="">Прошлая месяц </option>
                         </select>
