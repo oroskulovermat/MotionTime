@@ -25,12 +25,10 @@ const Menu = () => {
                                 <div className="menu--general__navbar">
                                     <h1>WORKPLACE</h1>
                                     <div className="menu--general__navbar--nav">
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
+                                        <div><Link to='/'><i className="fas fa-home"/><span>Главная</span></Link></div>
+                                        <div><Link to='/employees'><i className="fas fa-home"/><span>Сотрудники</span></Link></div>
+                                        <div><Link to='/branches'><i className="fas fa-home"/><span>Филиалы</span></Link></div>
+                                        <div><Link to='/departments'><i className="fas fa-home"/><span>Отделы</span></Link></div>
                                     </div>
                                 </div>
                                 <div className="menu--general__navbar2">

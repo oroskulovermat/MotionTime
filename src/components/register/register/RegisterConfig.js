@@ -36,9 +36,11 @@ const RegisterConfig = () => {
                             <h2 className='config__container__left__content__title text-2xl text-center  mb-6'>Вы уже зарегистрировались?</h2>
                             <p className='config__container__left__content__text mb-6'>Если вы уже зарегистрированы,
                                 нажмите кнопку ниже и войдите.</p>
-                            <button className='config__container__left__content__btn h-[60px] mb-6 '>
-                                Войти
-                            </button>
+                            <NavLink to='/login' className='config__container__left__content__btn h-[60px] flex justify-center'>
+                                <button>
+                                    Войти
+                                </button>
+                            </NavLink>
                         </div>
                     </div>
                     <div className='config__container__end '>

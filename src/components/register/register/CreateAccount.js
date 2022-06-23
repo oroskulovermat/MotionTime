@@ -2,7 +2,7 @@ import '../../../Style/Register/CreateAccount.scss';
 import  code from '../../../assets/img/code.svg'
 import Email from "../../../assets/img/email.svg";
 import User from "../../../assets/img/User.svg";
-import {useNavigate} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 import {useForm} from "react-hook-form";
 import {publicApi} from "../../../HTTP/pudlicApi";
 import {toast} from "react-toastify";
@@ -51,9 +51,11 @@ const CreateAccount = () => {
                         <h2 className='account__container__left__content__title text-2xl text-center  mb-6'>Вы уже зарегистрировались?</h2>
                         <p className='account__container__left__content__text mb-6'>Если вы уже зарегистрированы,
                             нажмите кнопку ниже и войдите.</p>
-                        <button className='account__container__left__content__btn h-[60px] mb-6 '>
-                            Войти
-                        </button>
+                       <NavLink to='/login' className='account__container__left__content__btn h-[60px] flex justify-center'>
+                           <button>
+                               Войти
+                           </button>
+                       </NavLink>
                     </div>
                 </div>
                 <div className='account__container__end '>
@@ -81,14 +83,14 @@ const CreateAccount = () => {
                                 <input type="password"
                                        {...register("password", {required: true})}
                                        className="bg-[#DFDFDF] px-10 h-[55px] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                       placeholder="Пароль" required/>
+                                       placeholder="Создать новый пароль" required/>
                             </div>
                             <div className='flex items-center mb-3'>
                                 <img className='px-2 absolute z-2' src={code} alt=""/>
                                 <input type="password"
                                        {...register("confirmPassword", {required: true})}
                                        className="bg-[#DFDFDF] px-10 h-[55px] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                       placeholder="Код потверждения" required/>
+                                       placeholder="Введите новый пароль  еще раз" required/>
                             </div>
                             <button
                                 type='submit'

@@ -1,6 +1,6 @@
-//@tailwind base;
-//@tailwind components;
-//@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 //icons
 @import "Style/icons.css";
@@ -24,3 +24,6 @@ body,html{
 @import "./Style/Forgot/ChangePassword";
 @import "./Style/Forgot/ConfigForgotPassword";
 @import "./Style/Forgot/ForgotPassword";
+
+
+@import "./Style/pages/employees";

@@ -1,10 +1,12 @@
 import React from 'react';
+import Layout from "../../components/Layout/Layout";
 
 const Branches = () => {
     return (
-        <div>
+        <Layout>
+            <h1>Ваши филиалы</h1>
             Филиалы
-        </div>
+        </Layout>
     );
 };
 
