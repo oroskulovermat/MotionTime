@@ -1,20 +1,20 @@
-import {FC} from 'react';
+// import {FC} from 'react';
 import '../../../Style/Register/Register.scss';
-import  Email from '../../img/email.svg'
+import  Email from '../../../assets/img/email.svg'
 import { useForm } from 'react-hook-form';
 import {NavLink, useNavigate} from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import Link from 'react-router-dom'
-import {publicApi} from "../../HTTP/pudlicApi";
-import Layout from "../../Layout/Layout";
+// import Link from 'react-router-dom'
+import {publicApi} from "../../../HTTP/pudlicApi";
+// import Layout from "../../Layout/Layout";
 
 
 
 const Register = () => {
     const navigate = useNavigate()
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: {  } } = useForm();
     const onSubmit = (data) => {
         publicApi.post("user/sendemail/",data)
             .then(data => {

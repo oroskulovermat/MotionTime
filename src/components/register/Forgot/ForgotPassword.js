@@ -1,18 +1,18 @@
-import {FC} from 'react';
+// import {FC} from 'react';
 import '../../../Style/Forgot/ForgotPassword.scss';
-import  Email from '../../img/email.svg'
+import  Email from '../../../assets/img/email.svg'
 import { useForm } from 'react-hook-form';
 import {NavLink} from "react-router-dom";
 
-import Link from 'react-router-dom'
-import {publicApi} from "../../HTTP/pudlicApi";
-import Layout from "../../Layout/Layout";
-import code from "../../img/code.svg";
+// import Link from 'react-router-dom'
+// import {publicApi} from "../../HTTP/pudlicApi";
+// import Layout from "../../Layout/Layout";
+// import code from "../../img/code.svg";
 
 
 
 const ForgotPassword = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors  } } = useForm();
     const onSubmit = (data) => {
         console.log(data)
     }

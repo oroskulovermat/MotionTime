@@ -1,0 +1,67 @@
+#header {
+  width: 70%;
+  position: fixed;
+  right: 0;
+  padding: 15px 0;
+
+  .header--general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__group {
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 13px;
+        left: 10px;
+        color: white;
+      }
+
+      label {
+        position: absolute;
+        left: 20px;
+        top: 0;
+        transform: translate(10px, 10px);
+        transform-origin: left;
+        transition: transform .25s;
+        color: white;
+      }
+
+      #in {
+        padding: 10px 15px 10px 40px;
+        border: none;
+        border-radius: 20px;
+        font: inherit;
+        color: white;
+        background: transparent;
+        outline: 2px solid white;
+        width: 400px;
+      }
+
+      &:focus-within label {
+        transform: translate(-15px, -20px) scale(.8);
+        color: #d1c5fc;
+      }
+
+      &:focus-within #in {
+        outline-color: #d1c5fc;
+
+      }
+    }
+
+    &__block {
+      width: 100px;
+      height: 20px;
+      background: red;
+      border-radius: 10px;
+    }
+
+    &__gen {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+

@@ -1,16 +1,16 @@
-import React, {FC} from 'react';
+import React from 'react';
 import '../../../Style/Register/configRegister.scss';
-import  code from '../../img/code.svg'
+import  code from '../../../assets/img/code.svg'
 import {NavLink, useNavigate} from "react-router-dom";
 import {useForm} from "react-hook-form";
-import {publicApi} from "../../HTTP/pudlicApi";
+import {publicApi} from "../../../HTTP/pudlicApi";
 import {toast, ToastContainer} from "react-toastify";
-import Email from "../../img/email.svg";
+import Email from "../../../assets/img/email.svg";
 
 
 const RegisterConfig = () => {
     const navigate = useNavigate()
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: {  } } = useForm();
     const onSubmit = (data) => {
         publicApi.post("/user/authorization/",data)
             .then(response => {
