@@ -1,9 +1,10 @@
 #header {
-  width: 70%;
+  width: 100%;
   position: fixed;
   right: 0;
   padding: 20px 0;
-
+  display: flex;
+  justify-content: flex-end;
   .header--general {
     display: flex;
     justify-content: space-between;
@@ -96,3 +97,14 @@
   }
 }
 
+
+.active {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  //width:100%;
+  //left: 0;
+  //display: flex;
+  //justify-content: flex-end;
+  //align-items: center;
+  //position: relative;
+}

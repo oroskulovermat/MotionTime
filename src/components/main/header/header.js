@@ -1,10 +1,24 @@
 import React from 'react';
-import bg from "./../../../assets/img/image 202 (Traced).svg";
+import bgs from "./../../../assets/img/image 202 (Traced).svg";
 import user from "./../../../assets/img/User.svg"
+import {useState,useEffect} from "react";
 
 const Header = () => {
+    const [bg, setBg] = useState(false)
+    const changeBackground = () => {
+        if (window.scrollY >= 66) {
+            setBg(true)
+        } else {
+            setBg(false)
+        }
+    }
+
+    useEffect(() => {
+        changeBackground()
+        window.addEventListener("scroll", changeBackground)
+    })
     return (
-        <header id="header">
+        <header id="header" className={bg ? "navbar active" : "navbar"}>
             <div className="container">
                 <div className="header--general">
                     <div className="header--general__group">
@@ -20,7 +34,7 @@ const Header = () => {
 
                     <div>
                         <div className="header--general__block">
-                            <img src={bg} alt="img"/>
+                            <img src={bgs} alt="img"/>
                             <h1>Тарифы</h1>
                         </div>
                     </div>
