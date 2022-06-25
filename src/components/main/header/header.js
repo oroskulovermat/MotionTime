@@ -1,5 +1,6 @@
 import React from 'react';
-import bg from "./../../../assets/img/code.svg"
+import bg from "./../../../assets/img/image 202 (Traced).svg";
+import user from "./../../../assets/img/User.svg"
 
 const Header = () => {
     return (
@@ -18,13 +19,16 @@ const Header = () => {
                     </div>
 
                     <div>
-                        <div className="header--general__block"/>
+                        <div className="header--general__block">
+                            <img src={bg} alt="img"/>
+                            <h1>Тарифы</h1>
+                        </div>
                     </div>
                     <div className="header--general__gen">
-                        <img src={bg} alt="ig"/>
+                        <img src={user} alt="img"/>
                         <div>
-                            <h1>lorem</h1>
-                            <p>Lorem ipsum dolor.</p>
+                            <h1>Cholponbaevvna</h1>
+                            <p>cholponbaevnashi.....</p>
                         </div>
                     </div>
                 </div>

@@ -3,6 +3,7 @@
   position: fixed;
   right: 0;
   padding: 15px 0;
+
   .header--general {
     display: flex;
     justify-content: space-between;
@@ -51,15 +52,46 @@
     }
 
     &__block {
-      width: 100px;
-      height: 20px;
-      background: red;
-      border-radius: 10px;
+      padding: 10px 30px;
+      background: rgba(238, 169, 80, 0.27);
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      img {
+        padding-right: 10px;
+      }
+      h1 {
+        font-family: 'Open Sans',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #DA8517;
+      }
     }
 
     &__gen {
       display: flex;
       align-items: center;
+      img {
+        padding-right: 15px;
+      }
+      div {
+        h1 {
+          font-family: 'Libre Franklin', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          color: #858585;
+
+        }
+        p {
+          font-family: 'Libre Franklin', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          color: #CCCCCC;
+        }
+      }
     }
   }
 }
