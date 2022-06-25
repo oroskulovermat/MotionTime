@@ -26,16 +26,16 @@ const Menu = () => {
                                     <h1>WORKPLACE</h1>
                                     <div className="menu--general__navbar--nav">
                                         <div><Link to='/'><i className="fas fa-home"/><span>Главная</span></Link></div>
-                                        <div><Link to='/employees'><i className="fas fa-home"/><span>Сотрудники</span></Link></div>
+                                        <div><Link to='/employees'><i className="fas fa-user"/><span>Сотрудники</span></Link></div>
                                         <div><Link to='/branches'><i className="fas fa-home"/><span>Филиалы</span></Link></div>
-                                        <div><Link to='/departments'><i className="fas fa-home"/><span>Отделы</span></Link></div>
+                                        <div><Link to='/departments'><i className="fas fa-users"/><span>Отделы</span></Link></div>
                                     </div>
                                 </div>
                                 <div className="menu--general__navbar2">
                                     <h1>MY PROFILE</h1>
                                     <div className="menu--general__navbar--nav">
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
-                                        <div><i className="fas fa-home"/> <span>Главная</span></div>
+                                        <div><i className="fas fa-user"/> <span>Профиль</span></div>
+                                        <div><i className="fa-solid fa-arrow-right-from-bracket"/><span>Выйти</span></div>
                                     </div>
                                 </div>
                             </div>
