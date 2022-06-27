@@ -12,7 +12,6 @@ const Home = () => {
             <Header/>
             <Menu/>
             <Hero/>
-            <Footer/>
         </>
     );
 };
