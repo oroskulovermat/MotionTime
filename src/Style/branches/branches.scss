@@ -1,0 +1,14 @@
+#branches {
+  .branches--general {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 150px;
+    &__block {
+      width: 1019px;
+      height: 390px;
+      background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.27) 2.77%, rgba(238, 169, 80, 0) 109.06%);
+      border-radius: 10px;
+    }
+  }
+}
