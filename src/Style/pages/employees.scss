@@ -1,9 +1,13 @@
 #employees {
+  padding:100px 0 0  0;
   .employees--general {
-    width: 85%;
-    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     &__block {
-      background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.27) 2.77%, rgba(238, 169, 80, 0) 109.06%);
+      width: 90%;
+      background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.27) 2.77%, rgba(238, 169, 80, 0.10) 109.06%);
       border-radius: 10px;
       display: flex;
       &__left {

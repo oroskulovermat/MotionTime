@@ -13,6 +13,7 @@ import ConfigForgotPassword from "./components/register/Forgot/ConfigForgotPassw
 import Employees from "./pages/employees/employees";
 import Branches from "./pages/branches/branches";
 import Departments from "./pages/departments/departments";
+import DepartmentsPage from "./pages/departments/departmentsPage";
 
 function App() {
     return (
@@ -31,6 +32,7 @@ function App() {
                 <Route path='/employees' element={<Employees/>}/>
                 <Route path='/branches' element={<Branches/>}/>
                 <Route path='/departments' element={<Departments/>}/>
+                <Route path='/departments/page' element={<DepartmentsPage/>}/>
                 {/*<Route path='/reports' element={<Reports/>}/>*/}
                 {/*<Route path='/settings' element={<Settings/>}/>*/}
                 {/*<Route path='/profile' element={<Profile/>}/>*/}

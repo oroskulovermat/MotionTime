@@ -16,6 +16,7 @@ body,html{
 @import "../src/Style/main/hero" ;
 @import "../src/Style/main/menu" ;
 @import "../src/Style/main/footer" ;
+@import "../src/Style/branches/branches" ;
 @import "../src/Style/Register/Register";
 @import "../src/Style/Register/Login";
 @import "../src/Style/Register/configRegister";
@@ -27,3 +28,5 @@ body,html{
 
 
 @import "./Style/pages/employees";
+@import "./Style/departments/departments";
+@import "./Style/departments/departmentsPage";

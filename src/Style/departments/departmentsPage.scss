@@ -1,0 +1,41 @@
+#depart-page{
+  padding-top: 140px;
+  .depart-page{
+    display: flex;
+    justify-content: flex-end;
+    &__general{
+      width: 80%;
+      background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.27) 2.77%, rgba(238, 169, 80, 0.05) 109.06%);
+      border-radius: 10px;
+     &__left{
+       width: 70%;
+       &__head{
+         padding: 22px;
+         h1{
+           color: #DA8517;
+           font-size: 24px;
+         }
+         p{
+           color: #AAAAAA;
+           font-size: 16px;
+         }
+       }
+       &__block{
+         width: 95%;
+         margin-left: 5%;
+         display: flex;
+         align-items: center;
+         height: 50px;
+         background: rgba(238, 169, 80, 0.27);
+         border-radius: 5px;
+         &__left{
+           width: 50%;
+           background: #000;
+           display: flex;
+           justify-content: space-around;
+         }
+       }
+     }
+    }
+  }
+}

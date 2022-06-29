@@ -1,0 +1,38 @@
+#departments{
+  padding-top: 120px;
+ .departments-general{
+   display: flex;
+   justify-content: flex-end;
+   &__left{
+     width:48%;
+     &__block{
+       height: 50px;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       padding: 25px;
+       background: rgba(238, 169, 80, 0.27);
+       border-radius: 5px;
+       margin-top: 25px;
+     }
+   }
+  &__right{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top:60px ;
+    &__btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(238, 169, 80, 0.27);
+      border-radius: 5px;
+      width: 62%;
+      height: 35px;
+      span{
+        display: flex;
+      }
+    }
+  }
+ }
+}
