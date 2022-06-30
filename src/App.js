@@ -14,6 +14,8 @@ import Employees from "./pages/employees/employees";
 import Branches from "./pages/branches/branches";
 import Departments from "./pages/departments/departments";
 import DepartmentsPage from "./pages/departments/departmentsPage";
+import Jonele from "./pages/departments/jonele";
+import EmployeePage from "./pages/employees/employeePage";
 
 function App() {
     return (
@@ -30,10 +32,10 @@ function App() {
                 <Route path='/config-forgot-password' element={<ConfigForgotPassword/>}/>
 
                 <Route path='/employees' element={<Employees/>}/>
+                <Route path='/employee-page' element={<EmployeePage/>}/>
                 <Route path='/branches' element={<Branches/>}/>
                 <Route path='/departments' element={<Departments/>}/>
                 <Route path='/departments/page' element={<DepartmentsPage/>}/>
-                {/*<Route path='/reports' element={<Reports/>}/>*/}
                 {/*<Route path='/settings' element={<Settings/>}/>*/}
                 {/*<Route path='/profile' element={<Profile/>}/>*/}
                 {/*<Route path='/rate' element={<Rate/>}/>*/}

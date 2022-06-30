@@ -1,0 +1,42 @@
+#employee-page{
+  padding-top: 150px;
+  .employee-page{
+    display: flex;
+    justify-content: flex-end;
+    &__general{
+      width: 80%;
+      background: linear-gradient(89.93deg, rgba(238, 169, 80, 0.27) 2.77%, rgba(238, 169, 80, 0) 109.06%);
+      border-radius: 10px;
+      &__head{
+        padding: 30px 0 0 30px;
+        background: #000;
+        &__info{
+          width: 50%;
+          background: red;
+          display: flex;
+          &__left{
+            background: gray;
+            width: 30%;
+           p{
+             margin: 0 0 30px  0;
+             color: #FFFFFF;
+             font-size: 22px;
+             font-family: 'Open Sans',sans-serif;
+           }
+          }
+          &__right{
+            background: green;
+            width: 70%;
+            p{
+              margin: 0 0 30px  0;
+              color: #DA8517;
+              font-size: 22px;
+              font-family: 'Open Sans',sans-serif;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
